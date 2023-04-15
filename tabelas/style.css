@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+*{
+    font-family: Roboto, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(150, 150, 150);
+}
+table{
+    margin-top: 40px;
+}
+
+table, th, tr, td{
+    border: 1px dashed black;
+    font-size: 1.2em;
+}
+td{
+    width: 100px;
+    text-align: center;
+}
+
+td:hover{
+  color: white;
+  background-color:aquamarine ;  
+}
+
+.tbmes{
+    width: 300px;
+    
+}
+
+
+

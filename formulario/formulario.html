@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Vamos fazer um formulário?</h1>
+    <div class="container">
+
+        <form action="" method="get">
+            <div class="fnome dform">
+                <label class="alinhar" for="inome">Nome</label>
+                <input type="text" nam="inome">
+            </div>
+            <div class="fsobrenome dform">
+                <label class="alinhar" for="isobrenome">Sobrenome</label>
+                <input type="text" name="isobrenome">
+            </div>
+            <div class="fnascimento dform">
+                <label class="alinhar" for="idate">Data de Nascimento</label>
+                <input type="date" name="idate">
+            </div>
+            <div class="fhoras dform">
+                <label class="alinhar" for="inumero">Número de Horas de Estudo</label>
+                <input type="number" name="inumero" >
+            </div>
+            <div class="ffone dform">
+                <label class="alinhar" for="ifone">Telefone</label>
+                <input type="tel" name="ifone" pattern="[0-9] {3} - [0-9] {2} - [0-9] {3}" placeholder="(DDD) 9 xxxx-xxxx">
+            </div>
+            <div class="flinguagens dform">
+                <div class="dcheck">
+                    <h3>Você se identifica com</h3>
+                    <input type="checkbox" name="linguagem" id="" value="HTML" checked>
+                    <label for="inumero">HTML</label><br>
+                    <input type="checkbox" name="linguagem" id="" value="CSS">
+                    <label for="inumero">CSS</label><br>
+                    <input type="checkbox" name="linguagem" id="" value="JavaScript">
+                    <label for="inumero">JavaScript</label><br>
+                    <input type="checkbox" name="linguagem" id="" value="PHP">
+                    <label for="inumero">PHP</label><br>
+                    <input type="checkbox" name="linguagem" id="" value="JAVA">
+                    <label for="inumero">JAVA</label><br>
+                    <input type="checkbox" name="linguagem" id="" value="c#">
+                    <label for="inumero">c#</label>
+                </div>
+            </div>
+            <div class="fopcao dform">
+                <div class="dradio">
+                    <h3>Escola uma das opções:</h3>
+                    <label for="opcap">Front-end</label>
+                    <input type="radio" name="opcao" id="" value="Front-end" checked>
+                    <label for="opcao">Back-end</label>
+                    <input type="radio" name="opcao" id="" value="Back-end">
+                    
+                </div>
+            </div>
+            
+            <div class="dform">
+                <label for="ling">Linguagens</label>
+                
+                <select name="ling" id="iling">Audi
+                    <option value=""></option>
+                    <optgroup label="Front-end"></optgroup>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <optgroup label="Back-end"></optgroup>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">JAVA</option>
+                    <option value="C#">c#</option>
+                    <option value="Node">Node</option>
+                </select>
+            </div>
+            <div class="dform">
+                <input type="submit" value="Enviar" id="enviar" width="200px">
+            </div>
+        </form>
+    </div>
+    <div class="voltar">
+        <h3><a href="../index.html">Home</a></h3>
+    </div>
+</body>
+</html>
