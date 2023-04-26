@@ -2,17 +2,17 @@
 
 *{
     font-family: Roboto, sans-serif;
+    
     margin: 0;
     border: 0;
-    color: white;
+    
     box-sizing: border-box;
 }
 
 body{
     background-color: antiquewhite;
-    margin: 0;
-    border: 0;
 }
+
 nav{
     background-color: #024059;
     width: 100%;
@@ -20,9 +20,14 @@ nav{
     padding: 10px;
 }
 
+main{
+    padding: 40px;
+}
+
 a{
     text-decoration: none;
     font-size: 1.2em;
+    color: white;
 }
 
 a:hover{
@@ -32,27 +37,44 @@ a:hover{
     width: 60px;   
 }
 
+
 .container{
-    
-    background-color:#7fffd4 ;
+    background-color:#818274 ;
+    color: white;
     box-shadow: 2px 2px 2px black;
     width: 450px;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
     margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
     
 }
+
+#titulo{
+    background-color: rgb(32, 156, 156);
+    
+    font-size: 1.2rem;
+    border-radius: 10px 10px 0px 0px;
+    width: 450px;
+    height: 40px;
+    margin: -15px 0px 0px -15px ;
+    padding: 10px;
+    
+
+}
+
+input{
+    outline: 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);
+}
+
 
 .dform{
     margin-top: 20px;
 }
+
 
 .alinhar{
     display: inline-block;
     width: 250px;
 }
 
-.voltar{
-    display: block;
-    width: 60px;
-    
-}
